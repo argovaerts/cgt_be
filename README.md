@@ -4,7 +4,7 @@
 
 1. Indien nodig, installeer [uv](https://docs.astral.sh/uv/getting-started/installation/)
 2. Download een zip bundel van deze repository of maak een clone
-3. Geef de portefeuille manueel in met de data van 01/01/2026 als startpunt voor de berekeningen. Indien [de historische aankoopwaarde hoger ligt](#historisch-hogere-aanschafwaarde) vermeld je dit in de Opmerking kolom om dit later mee te nemen (vereist manueel werk!).
+3. De makkelijkste manier om te starten is om de bestaande portefeuille manueel in te geven met 01/01/2026 als startpunt voor de berekeningen. Indien [de historische aankoopwaarde hoger ligt](#historisch-hogere-aanschafwaarde) vermeld je dit in de Opmerking kolom om dit later mee te nemen (vereist manueel werk!).
 
 Voor Bolero:
 * [Bolero export extension](https://github.com/thibaultmarrannes/bolero-extension) is noodzakelijk om bruikbare extracties samen te stellen.
