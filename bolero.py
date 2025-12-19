@@ -97,7 +97,7 @@ def map_amounts(amount) -> float:
 
 # Convert bond quote
 def convert_bond_quote(quote_str) -> float:
-    return float(quote_str.replace('%','').replace('-','100').replace('.', '').replace(',', '.')) / 100
+    return float(quote_str.replace('%','').replace('-','100').replace('.', '').replace(',', '.'))
 
 if __name__ == '__main__':
     main()
