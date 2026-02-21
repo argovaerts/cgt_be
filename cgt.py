@@ -21,7 +21,7 @@ def main() -> None:
     transactions = pd.read_csv('transaction_data.csv')
     transactions = transactions.sort_values(by=['Datum', 'ISIN'], ascending=False)
     transactions['Transactie'] = transactions['Transactie'].str.upper()
-    transactions['_asset'] = [' - '.join(i) for i in zip(transactions['ISIN'].map(str),transactions['Effect'])]
+    transactions['_asset'] = [' - '.join(i) for i in zip(transactions['ISIN'].map(str),transactions['Effect'], transactions['Broker'])]
 
     buy_transactions = transactions[transactions['Transactie'] != 'VERKOOP']
     sell_transactions = transactions[transactions['Transactie'] == 'VERKOOP']
@@ -57,7 +57,8 @@ def main() -> None:
 
     # Save results
     results.to_excel('fifo_results.xlsx', index=False)
-    print('\nFIFO berekening voltooid. Resultaten werden opgeslagen in fifo_results.xlsx.')
+    results.to_html('fifo_results.html', index=False)
+    print('\nFIFO berekening voltooid. Resultaten werden opgeslagen in fifo_results.xlsx en fifo_results.html.')
 
 
 def process_buy_transactions(asset_buy_transactions: pd.DataFrame) -> deque:

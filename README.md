@@ -60,6 +60,8 @@ Voeg transacties manueel toe aan `transaction_data.csv` en vul `assets_mapping.c
 | Crypto                               | Meerwaardebelasting 10%                                                                             |
 | Voorhuwelijkssparen                  | Meerwaardebelasting 10% ???                                                                         |
 
+Voor meerdere aankopen van hetzelfde effect wordt FIFO per effectenrekening gehanteerd voor het berekenen van de meerwaarde. 
+
 ### Historisch hogere aanschafwaarde
 
 Als je een aandeel hebt gekocht voor 31 december 2025 aan een hogere prijs dan de waarde op de foto, zal je de hogere aankoopprijs in rekening mogen brengen in plaats van de waarde op de foto. Welke bewijsstukken je daarvoor moet aanleveren is nog niet bekend. Deze mogelijkheid geldt maar tot 31 december 2030. Voor verrichtingen na die datum wordt steeds de waarde op de foto op 31 december 2025 gebruikt.
@@ -78,3 +80,4 @@ Je kocht een aandeel in 2023 aan 150 euro. De koers op 31 december 2025 bedraagt
 * https://www.wikifin.be/nl/belasting-werk-en-inkomen/belastingaangifte/belastingverminderingen/vermindering-voor
 * https://www.nagelmackers.be/nl/onze-inzichten/erfenis-en-fiscaliteit/5-vragen-over-de-nieuwe-meerwaardebelasting
 * https://www.kbc.be/particulieren/nl/nieuws/arizona-regeerakkoord-meerwaardebelasting.html
+* https://www.dvdtaxlaw.be/de-nieuwe-belgische-meerwaardebelasting-vanaf-1-januari-2026-een-overzicht/
