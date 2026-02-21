@@ -219,4 +219,6 @@ __marimo__/
 *.csv
 .~lock*
 
-fifo_results.*
+fifo_results.csv
+fifo_results.xslx
+fifo_results.html
